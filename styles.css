@@ -433,6 +433,14 @@ a { text-decoration: none; color: inherit; }
   color: #fff;
   margin: 36px 0 12px;
 }
+/* Subheadings inside a numbered section — smaller and tighter to the section
+   above them, so they read as part of it rather than as a new section. */
+.legal-page h3 {
+  font-size: 1rem;
+  font-weight: 600;
+  color: #fff;
+  margin: 24px 0 8px;
+}
 .legal-page p, .legal-page li {
   color: var(--muted);
   font-size: 0.95rem;
